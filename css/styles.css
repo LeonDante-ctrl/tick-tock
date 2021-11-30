@@ -1,4 +1,40 @@
+/*      link fonts --  font-family: 'Quando', serif;     */
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+/*      h1 fonts --  font-family: 'Quicksand', sans-serif;     */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/*      <p> fonts --  font-family: 'Martel', serif;     */
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+body{
+  background-color: #4A504E;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Quicksand', sans-serif;
+}
+p{
+  font-family: 'Martel', serif;
+}
+a{
+  font-family: 'Quando', serif; 
+}
 
+/*    start of header styles   */
+header div.container-fluid{
+  line-height: 1rem;
+}
+.mr-auto .navbar-nav .nav-link{
+  color:#A4A5A4;
+}
+.navbar-nav .nav-item a:hover, .navbar-nav .nav-item a:focus{
+  color: #fff ;
+}
+a.navbar-brand img{
+  width: 70%;  
+}
+
+
+/*    end of header styles   */
+/*    start of section1 styles   */
 
 
 
