@@ -31,11 +31,18 @@ header div.container-fluid{
 a.navbar-brand img{
   width: 70%;  
 }
-
-
 /*    end of header styles   */
 /*    start of section1 styles   */
-
+#section1{
+  margin: 0px;
+  background: rgba(0, 0, 0, 0.6)url('../images/section1\ bg.jpg');
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
 
 
 /*    start of footer styles   */
