@@ -88,6 +88,15 @@ div.row h1#bottom{
 
 /*    start of section2 styles   */
 
+#section2{
+  background: #E5E5E5;
+}
+#section2 div#head{
+  text-align: center;
+  padding: 3rem;
+}
+
+
 
 
 /*    end of section2 styles   */
