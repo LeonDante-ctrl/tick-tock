@@ -81,7 +81,7 @@ div.row h1{
   font-family: 'Quando', serif; 
 }
 div.row h1#bottom{
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 /*    end of section1 styles   */
@@ -138,8 +138,12 @@ footer .row .copyright{
   .timer h3{
     font-size: 1rem;
   }
+  .timer p{
+    color: white;
+  }
   .timer{
     background: none;
+    border: none;
     margin-left: -3rem;
   }
   .social li{
