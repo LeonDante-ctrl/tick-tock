@@ -43,6 +43,32 @@ a.navbar-brand img{
   text-align: center;
   color: #fff;
 }
+.timer p{
+  font-size: 2rem;
+}
+.timer{
+  background: #C4C4C4;
+  border-radius: 50%;
+  padding: 2.7rem;
+}
+
+
+
+/*    end of section1 styles   */
+
+/*    start of section2 styles   */
+
+
+
+/*    end of section2 styles   */
+/*    start of section3 styles   */
+
+
+
+/*    end of section3 styles   */
+
+
+
 
 
 /*    start of footer styles   */
@@ -79,6 +105,13 @@ footer .row .copyright{
 /*    start of media queries styles   */
 
 @media (min-width: 300.7px) and (max-width: 767.7px){
+  .timer h3{
+    font-size: 1rem;
+  }
+  .timer{
+    background: none;
+    margin-left: -3rem;
+  }
   .social li{
     margin: 0.5rem;
   }
