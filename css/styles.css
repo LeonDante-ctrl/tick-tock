@@ -24,6 +24,7 @@ header div.container-fluid{
 }
 .mr-auto .navbar-nav .nav-link{
   color:#A4A5A4;
+  margin-left: 2rem;
 }
 .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a:focus{
   color: #fff ;
@@ -46,13 +47,42 @@ a.navbar-brand img{
 .timer p{
   font-size: 2rem;
 }
+div.col-2{
+  padding: 0.1rem;
+}
 .timer{
   background: #C4C4C4;
   border-radius: 50%;
-  padding: 2.7rem;
+  padding: 2.64rem;
+  border: solid 0.3rem #B93D19;
 }
-
-
+#section1 div.top{
+  margin-top: 1rem;
+}
+.timer h3{
+  color: #B93D19;
+}
+.timer p{
+  color: black;
+}
+div.row svg{
+  text-align: center;
+}
+div.row img{
+  height: 28em;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+div#count{
+  text-align: center;
+}
+div.row h1{
+  font-size: 3.5rem;
+  font-family: 'Quando', serif; 
+}
+div.row h1#bottom{
+  margin-bottom: 3rem;
+}
 
 /*    end of section1 styles   */
 
@@ -150,13 +180,17 @@ footer .row .copyright{
 }
 
 @media (min-width: 1527.7px){
-
+  .timer{
+    padding: 3.476rem;
+  }
 
 
 }
 
 @media (min-width: 1919.7px){
-
+  .timer{
+    padding: 3.476rem;
+  }
   
 
 }
