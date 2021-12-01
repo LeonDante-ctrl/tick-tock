@@ -7,7 +7,7 @@ function counter(){
         minute  = second * 60,
         hour    = minute * 60,
         day     = hour * 24;
-    var dayLeft     =  addZero(Math.floor(timeLeft/ day), ),
+    var dayLeft     =  addZero(Math.floor(timeLeft/ day),),
         hourLeft    =  addZero(Math.floor((timeLeft % day)/ hour), 2),
         mintueLeft  =  addZero(Math.floor((timeLeft % hour)/minute), 2),
         secondLeft  =  addZero(Math.floor((timeLeft % minute)/ second), 2);
