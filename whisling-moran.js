@@ -16,5 +16,10 @@ function countDown() {
     const minute = Math.floor(timeBetween / 1000 / 60) % 60;
     const second = Math.floor(timeBetween / 1000) % 60;
 
-    console.log(day);
+days.innerHTML = day;
+hours.innerHTML = hour < 10 ? "0" + hour : hour;
+minutes.innerHTML = minute < 10 ? "0" + minute : minute;
+// seconds.innerHTML = second < 10 ? "0" + second : second;
 }
+
+setInterval(countDown, 1000);
