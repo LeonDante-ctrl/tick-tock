@@ -1,0 +1,9 @@
+#nameInput,
+#emailInput,
+#floatingTextarea {
+  background: transparent;
+  color: white;
+}
+body {
+  background-color: #e5e5e5;
+}
